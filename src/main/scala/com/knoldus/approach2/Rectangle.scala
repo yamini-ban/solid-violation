@@ -1,6 +1,6 @@
 package com.knoldus.approach2
 
-class Rectangle extends Area {
+final class Rectangle extends Area {
   var length: Double = 0
   var breadth: Double = 0
   def this(length: Double, breadth: Double) {

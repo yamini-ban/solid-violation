@@ -1,6 +1,6 @@
 package com.knoldus.approach2
 
-class Square extends Area {
+final class Square extends Area {
   var side: Double = 0
   def this(side: Double) {
     this()
